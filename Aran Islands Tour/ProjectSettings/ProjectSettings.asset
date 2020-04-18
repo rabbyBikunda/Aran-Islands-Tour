@@ -103,6 +103,7 @@ PlayerSettings:
   xboxOneMonoLoggingLevel: 0
   xboxOneLoggingLevel: 1
   xboxOneDisableEsram: 0
+  xboxOneEnableTypeOptimization: 0
   xboxOnePresentImmediateThreshold: 0
   switchQueueCommandMemory: 0
   switchQueueControlMemory: 16384
@@ -648,10 +649,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 5b79a565-d272-4324-8de1-2fc1bcfe5962
+  cloudProjectId: 8bea0530-5ad4-4e0c-898e-f8e861fcf277
   framebufferDepthMemorylessMode: 0
-  projectName: Wicklow Tour
-  organizationId: rabbybikunda
+  projectName: Aran Islands Tour
+  organizationId: bbteriba
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
