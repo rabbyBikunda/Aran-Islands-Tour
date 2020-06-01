@@ -17,7 +17,7 @@ public class AudioController : MonoBehaviour
             if(MusicSource2 != null)
             {
                 MusicSource2.Play();
-                Debug.Log("MusicSource2 HAS A SOURCE");
+                //Debug.Log("MusicSource2 HAS A SOURCE");
             }
             else
             {
