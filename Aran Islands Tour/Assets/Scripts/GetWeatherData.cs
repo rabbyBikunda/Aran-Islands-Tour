@@ -12,9 +12,9 @@ public class GetWeatherData : MonoBehaviour
     [DllImport("__Internal")]
     private static extern void Speak(string str);
 
-    public string jsonString;
+    string jsonString;
 
-    public Rootobject rootObject;
+    Rootobject rootObject;
 
 
     //Root object class for json data
