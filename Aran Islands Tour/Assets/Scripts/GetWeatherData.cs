@@ -110,7 +110,7 @@ public class GetWeatherData : MonoBehaviour
     IEnumerator loadData()
     {
         //create a webrequest object that will get the data from the api
-        UnityWebRequest www = UnityWebRequest.Get("http://api.openweathermap.org/data/2.5/weather?q=galway&appid=a171c28cf9958f3ca164d974312f0e31&units=metric");
+        UnityWebRequest www = UnityWebRequest.Get("https://api.openweathermap.org/data/2.5/weather?q=galway&appid=a171c28cf9958f3ca164d974312f0e31&units=metric");
 
         //yield is the point at which execution will pause and be resumed the following frame
         yield return www.SendWebRequest();
@@ -126,9 +126,10 @@ public class GetWeatherData : MonoBehaviour
     }
 
 
-    public void talk()
+    public void Talk()
     {
-        //cuurent temperature from api
+        
+        //current temperature from api
         float currentTemp = rootObject.main.temp;
                
         Speak("The current temperature is " + currentTemp.ToString() + "degrees");

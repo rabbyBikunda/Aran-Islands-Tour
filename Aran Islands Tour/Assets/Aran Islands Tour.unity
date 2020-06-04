@@ -4217,7 +4217,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 882592880}
-          m_MethodName: talk
+          m_MethodName: Talk
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -4239,37 +4239,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4a5d8d1cdade3e449c966d5d66b39d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jsonString: 
-  rootObject:
-    coord:
-      lon: 0
-      lat: 0
-    weather: []
-    _base: 
-    main:
-      temp: 0
-      feels_like: 0
-      temp_min: 0
-      temp_max: 0
-      pressure: 0
-      humidity: 0
-    visibility: 0
-    wind:
-      speed: 0
-      deg: 0
-    clouds:
-      all: 0
-    dt: 0
-    sys:
-      type: 0
-      id: 0
-      country: 
-      sunrise: 0
-      sunset: 0
-    timezone: 0
-    id: 0
-    name: 
-    cod: 0
 --- !u!1 &906235663
 GameObject:
   m_ObjectHideFlags: 0
